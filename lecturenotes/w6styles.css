@@ -1,0 +1,14 @@
+/*group selector, will style all h1's and p's*/
+h1, p{color: green;
+    font-size: .8em;
+    font-family:'Courier New', Courier, monospace;}
+/* p{color:darkcyan;}
+above is our basic element selector. every p in the page gets styled*/
+p a {color:rgb(220, 93, 20)}
+/* all links in paragraphs will be affected. called a descendant selector*/
+
+/*this styles the id (#)*/
+#secondparagraph {color:rgb(45, 86, 4)}
+
+/*this styles a class (.)*/
+.purpletext {color:purple}
