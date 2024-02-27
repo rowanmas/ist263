@@ -7,8 +7,13 @@
     <style>
         h2{background-color: #9bffb8;}
         a:visited{color: #00ff00}
+         /*from now on, use hexadecimal colors. they load faster*/
         a:hover{background-color: #efefef;}
-        /*from now on, use hexadecimal colors. they load faster*/
+        /*pseudo selector, you need the : */
+        body{background-color: #3a1212; font-family: Verdana, Geneva, Tahoma, sans-serif; background-image: url("../MPPF/MPPF_official.png"); background-size: 5%;} 
+        .bgimage{background-image:url(cuse.png);}
+        .box{background-color: #ffffff; border: 5px solid #ff2940; /*border is a combo property. need pixel thickness, solid, and color*/ padding: 30px; /*padding is space inside the border*/margin: 100px; /*margin is space outside the border*/}
+
     </style>
 </head>
 <body>
@@ -17,5 +22,9 @@
         <h2>Pseudo Selectors</h2>
             <a href="http://microsoft.com">Microsoft</a><br>
             <a href="http://apple.com">Apple</a>
+        <h2>Background Images</h2>
+            <p class="bgimage">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem omnis asperiores, hic laborum, porro at minus, ipsam quas quisquam corrupti voluptatum aliquid. Adipisci harum placeat, vel veniam maiores cupiditate commodi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas ad et eius ipsa dolores at sapiente odio ducimus dicta iusto incidunt id nemo officia in, sed illo nisi, qui placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat corporis modi eaque, nisi similique est ipsa maiores ut neque perferendis accusantium in nihil natus! Sed eum dignissimos maxime labore numquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quia dolore natus amet sapiente deleniti provident reiciendis. Ad asperiores ea atque consectetur fugit dicta dolore ipsa, quas fuga. Sit, culpa! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt animi itaque id repellat iste obcaecati, sapiente doloribus adipisci. Voluptatum quia soluta animi quas commodi vitae rerum accusamus dolore molestias. A? Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolore mollitia voluptate incidunt impedit, odio sequi tenetur quibusdam magnam enim et hic quaerat nihil nostrum quam neque quas ipsam ad! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est unde iure quasi vero nobis veniam obcaecati accusantium, magni nostrum necessitatibus quae tenetur consequatur delectus quidem voluptate eaque magnam beatae dolorem!</p>
+        <h2>Box Model</h2>
+            <p class="box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat illum esse, ratione odio quod reiciendis doloremque facere at ut iure eius. Explicabo mollitia commodi ex laboriosam est accusantium quibusdam delectus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores placeat, ducimus corporis illum laudantium inventore veritatis iure qui ipsam, dolorem pariatur accusamus ullam maxime neque velit blanditiis? Cupiditate, aspernatur? Unde.</p>
 </body>
 </html>
