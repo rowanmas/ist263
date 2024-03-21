@@ -1,7 +1,7 @@
-body{font-family: Georgia, 'Times New Roman', Times, serif; background-color: #000000; color:#FFFFFF;}
+body{font-family: Georgia, 'Times New Roman', Times, serif; background-color: #d3d3d3; color:#000000;}
 h1, h2 {color:blueviolet;}
-.evenrow {background-color:rgb(221, 228, 228);}
-h1{font-size: 1.5em; color:#f5f5dc;}
+h1{text-align: center;}
+.evenrow {background-color:rgb(203, 244, 244);}
 h2{font-size: 1.2em;}
 nav{background-color: #2f4f4f; padding: 10px; margin-bottom: 30px;}
 nav a{color:#F57D1f; background-color: #2f4f4f;}
