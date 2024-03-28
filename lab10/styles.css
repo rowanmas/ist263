@@ -1,0 +1,20 @@
+body{font-family: Georgia, 'Times New Roman', Times, serif; background-color: #d3d3d3; color:#000000;}
+h1, h2 {color:blueviolet;}
+h1{text-align: center;}
+.evenrow {background-color:rgb(203, 244, 244);}
+h2{font-size: 1.2em;}
+nav{background-color: #2f4f4f; padding: 10px; margin-bottom: 30px;}
+nav a{color:#F57D1f; background-color: #2f4f4f;}
+nav a:hover{background-color: #FF0000;}
+@media only screen and (max-width:600px) {
+    nav a{display: block}
+    span{display:none}}
+a{color: #FFFFFF;}
+.img1{float:left; margin-right:10px; max-width: 100%;}
+.clear{clear:both;}
+.quote{float:right; margin-left: 10px;}
+.ns{float:right; margin-right: 10px;}
+.d1{display: flex; margin: 10px;background-color: #556b2f; border-radius: 20px;}
+.d1 div{margin: 10px; padding:20px}
+.d2{display:flex; margin: 10px;background-color: #cbcbff; border-radius: 20px; flex-wrap:wrap}
+.d2 div{margin: 10px; padding:40px; background-color: #cbcbff;border-radius: 20px;}
