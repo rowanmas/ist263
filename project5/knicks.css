@@ -1,0 +1,14 @@
+nav{display:flex; background-color: #006BB6 ; font-family: Arial, Helvetica; font-size: 1.5em, sans-serif;}
+nav div{padding: 10px}
+nav a{font-size: 150%; color: #FFFFFF; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+nav a:hover{color:#ffa500}
+section{display: flex;}
+section a{padding: 15px}
+.small{flex-direction: column;}
+section a:hover{border:1px solid #ffa500}
+body{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: #f9f9f9;}
+@media only screen and (max-width:600px) {
+    nav a{justify-content: space-between;}
+    .nyk{width:30%; height:30%}
+    .big, .small{flex-direction: column; width:30%; height:30%;}
+    .bvid{width:400%; height:400%}}
