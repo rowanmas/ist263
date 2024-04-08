@@ -7,7 +7,7 @@ section a{padding: 15px}
 .small{flex-direction: column;}
 section a:hover{border:1px solid #ffa500}
 body{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: #f9f9f9;}
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:1000px) {
     nav a{justify-content: space-between;}
     .nyk{width:30%; height:30%}
     .big, .small{flex-direction: column; width:30%; height:30%;}
