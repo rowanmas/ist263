@@ -25,6 +25,7 @@ span {
     color: #FFFFFF;
 }
 .skip {
+    color:#000000;
     background-color: #ffa500;
     padding:10px;
     border: 2px solid black;
