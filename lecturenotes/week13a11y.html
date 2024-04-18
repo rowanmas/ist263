@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A11y</title>
+    <style>
+        .skip{
+            background-color: #ffa500;
+            padding:10px;
+            border: 2px solid black;
+            text-decoration: none;
+            position: absolute; /*positions relative to top and bottom of viewport */
+            top: 10px;
+            left: -999px; /*pushes button off-screen*/
+        }
+        .skip:focus{
+            left:10px; /*when button is tabbed to, the button appears on-screen*/
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <!--dont forget bookmark links in skip to content (href=#skip and the id on 'p')-->
+        <a href="#skip" class=skip tabindex="1">Skip to Content</a><br>
+        <a href="http://www.amazon.com" tabindex="4">Amazon</a><br>
+        <a href="http://www.apple.com" tabindex="3">Apple</a><br>
+        <a href="http://www.google.com" tabindex="2">Google</a>
+    </nav>
+    <h1>All the A11y Techniques</h1>
+    <p id="skip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quia modi dolor quaerat odio, vero neque excepturi corporis nisi tempora animi quas fuga repudiandae itaque, ipsum earum eos laudantium sequi!</p>
+</body>
+</html>
