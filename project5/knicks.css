@@ -6,9 +6,34 @@ section{display: flex;}
 section a{padding: 15px}
 .small{flex-direction: column;}
 section a:hover{border:1px solid #ffa500}
+.nyk{
+    width:10%
+}
+.videos1{
+    display: flex;
+    flex-direction: column;}
+div{
+    display: flex;
+}
+span{display:inline}
+iframe:hover{border: 3px solid #ffa500;}
 body{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: #f9f9f9;}
-@media only screen and (max-width:650px) {
-    nav a{justify-content: space-between;}
+@media only screen and (max-width:850px) {
+    nav{flex-direction: column;}
     .nyk{width:30%; height:30%}
     .big, .small{flex-direction: column; width:30%; height:30%;}
-    .bvid{width:400%; height:400%}}
+    .bvid{width:400%; height:400%}
+    section a:hover{border:1px solid #ffa500}
+    nav a:hover{color:#ffa500}
+    td img{width:100%; height: 100%}
+}
+@media only screen and (max-width:850px) {
+div{flex-direction: column;}
+.willis{width: 90%;}
+}
+td img{
+    width: 40%
+}
+th, td{
+    border:1px solid #000000;
+}
