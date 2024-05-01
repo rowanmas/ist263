@@ -17,7 +17,8 @@
     <h2>The New York Knicks</h2>    
     <article>The New York Knicks, founded in 1946, stand as one of the oldest and most iconic franchises in the National Basketball Association (NBA). They represent the city of New York, a metropolis renowned for its vibrant basketball culture and fervent sports fandom. Throughout their storied history, the Knicks have left an indelible mark on the NBA landscape, embodying both triumph and adversity.
 <br><br>
-        In their early years, <span id="more">the Knicks found success, winning their first NBA Championship in 1970 behind the leadership of legendary players such as Willis Reed, Walt "Clyde" Frazier, and Dave DeBusschere, under the coaching of Red Holzman. This victory solidified the team's place among basketball's elite and cemented their status as a powerhouse franchise.
+        In their early years, <button onclick="showMore()">Read More</button>
+        <span id="moreText">the Knicks found success, winning their first NBA Championship in 1970 behind the leadership of legendary players such as Willis Reed, Walt "Clyde" Frazier, and Dave DeBusschere, under the coaching of Red Holzman. This victory solidified the team's place among basketball's elite and cemented their status as a powerhouse franchise.
         The Knicks then reached the NBA Finals twice, in 1994 and 1999, although they fell short of capturing another championship. Despite these near misses, the team's gritty style of play and fierce competitiveness endeared them to fans and earned them respect across the league.
         <br><br>
         In addition to their on-court achievements, the Knicks have always associated themselves with Madison Square Garden. 
@@ -29,5 +30,19 @@
                 <a href="https://www.cbssports.com/nba/news/watch-josh-hart-ejected-for-kicking-javonte-green-in-the-head-during-knicks-loss-to-bulls/"><img src="BREAKING.jpg" alt="Josh Hart ejected for kicking Javonte Green in the head during Knicks' loss to Bulls" class="svid" width="330" height="185"></a>
                 <a href="https://sports.yahoo.com/demar-derozan-pokes-fun-knicks-190016299.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAADpgWUQ5NCyD_LyI9hbJ1PPIwlwY-mXBZnb5PCnlVC_C5xtb2s6o7cYFUVrV2bq98uFs9hmMkHJuR-T6Ro1f1v2rDpIpur9qQGOCYjPO4FmTQBzmsI482ZkGnfAq2oVe7ieuj6FiYKAkCE-PpyP0XqLELV2bZGoVh33kDSRLjv3w"><img src="THIBS.jpg" alt="DeMar DeRozan pokes fun at Knicks coach Tom Thibodeau after Bulls win" width="330" class="svid" height="180"></a></section>
         </section>
+    <script>
+    function showMore() {
+    var moreText = document.getElementById("moreText");
+    var btnText = document.querySelector("button");
+
+    if (moreText.style.display === "none") {
+        moreText.style.display = "block";
+        btnText.textContent = "Read Less";
+    } else {
+        moreText.style.display = "none";
+        btnText.textContent = "Read More";
+    }
+    }
+    </script>
 </body>
 </html>
