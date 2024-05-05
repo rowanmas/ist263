@@ -20,6 +20,18 @@ td img{
     width: 100px;
 }
 .photo{width: 100px;}
+.skip{
+    background-color: #ffa500;
+    padding:10px;
+    border: 2px solid black;
+    text-decoration: none;
+    position: absolute; /*positions relative to top and bottom of viewport */
+    top: 10px;
+    left: -999px; /*pushes button off-screen*/
+}
+.skip:focus{
+    left:10px; /*when button is tabbed to, the button appears on-screen*/
+}
 iframe:hover{border: 3px solid #ffa500;}
 body{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: #f9f9f9;}
 @media only screen and (max-width:850px) {
