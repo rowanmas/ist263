@@ -25,14 +25,14 @@ body{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida 
     .bvid{width:400%; height:400%}
     section a:hover{border:1px solid #ffa500}
     nav a:hover{color:#ffa500}
-    td img{width:150%; height: 150%}
+    td img{width:80%; height: 80%}
 }
 @media only screen and (max-width:850px) {
 div{flex-direction: column;}
 .willis{width: 90%;}
 }
 td img{
-    width: 150%
+    width: 80%
 }
 th, td{
     border:1px solid #000000;
